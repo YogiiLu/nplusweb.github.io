@@ -5,17 +5,17 @@ date:   2016-08-16
 author: joyceLu
 authorBlog: "https://github.com/sangevan"
 tags: [html,css,share]
-excerpt_separator: '<dl class="d"><dt>Q：点击元素出现边框'
+excerpt_separator: '<p>animation包括8个子属性：</p>'
 ---
 <style>
 	
 </style>
-<h3>示例代码：</h3>
+<h4>示例代码：</h4>
 <img src="{{ site.baseurl }}/img/0816_test1.png" alt="">
 <p>运行之后可以看见一个小人在连续地跑步</p>
 <p>animation包括8个子属性：</p>
 <p><strong>animation-name:</strong>规定要绑定的keyframes的名称</p>
-<p>time:包含两个时间，第一个时间是规定完成这个动画所需要的时间，全称叫animation-duration;第二个时间是动画延迟开始播放的时间，全称叫animation-delay，这两个数值可以用秒’s’也可以用微秒’ms’来写，1000ms=1s</p>
+<p><strong>time:</strong>包含两个时间，第一个时间是规定完成这个动画所需要的时间，全称叫animation-duration;第二个时间是动画延迟开始播放的时间，全称叫animation-delay，这两个数值可以用秒’s’也可以用微秒’ms’来写，1000ms=1s</p>
 <p><strong>animation-timing-function:</strong>规定动画的运动曲线，这里有9个值，分别是ease | linear | ease-in | ease-out | ease-in-out | step-start | step-end | steps([, [ start | end ] ]?) | cubic-bezier(x1, y1, x2, y2)。</p>
 <p>其中，这个 steps(n,[ start | end ] ]?)这个阶梯函数，这个函数可以把动画平均划分为基本相等的，这个n是一个自然数，意思就是把一个动画平均分成n等分，平均地走完这个动画。所以上面的例子也可以用step(n)实现。</p>
 <img src="{{ site.baseurl }}/img/0816_test2.png" alt="">
